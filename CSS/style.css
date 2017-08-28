@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+main article header div img {
+    max-width: 300px;
+}
+
+section .section-author-img {
+    margin: 0;
+    padding: 0;
+    
+}
+.section-author-img img{
+    width: 100%;
+    height: auto;
+}
