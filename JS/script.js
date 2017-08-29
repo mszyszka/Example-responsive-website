@@ -1,8 +1,14 @@
 //........................hamburger button...............................
-
-
 function hamButton(x) {
     x.classList.toggle("change");
 }
+//.......................................................................
 
+
+//.............................nav open..................................
+var hamburger = document.querySelector(".hamburger-button");
+hamburger.addEventListener("click", function () {
+    document.querySelector(".page-header").classList.toggle("nav-opened");
+}, false);
+//.......................................................................
 //.......................................................................
