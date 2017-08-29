@@ -48,7 +48,7 @@ article .article-header {
     padding: 10px 25px 50px 25px;
 }
 
- .author-div img {
+.author-div img {
     max-width: 90px;
     border-radius: 50%;
 }
@@ -90,6 +90,42 @@ article .article-header {
 .navigation-menu li a {
     text-decoration: none;
     color: #000000;
+}
+
+
+/*............................................................*/
+
+
+/*........................section style.......................*/
+
+figure figcaption {
+    text-align: center;
+    padding: 5px;
+}
+
+section h3,
+p {
+    padding: 0 10px;
+}
+
+
+/*
+
+.first-section p:last-child,
+.second-section p:last-child,
+.third-section p:last-child  {
+    
+    margin-bottom: 30px;
+}
+*/
+
+.line-div {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #37474F;
+    margin-top: 50px;
+    margin-bottom: 65px;
 }
 
 
@@ -146,7 +182,6 @@ section .section-author-img {
     margin: 0;
     padding: 0;
 }
-
 
 .section-author-img img {
     width: 100%;
