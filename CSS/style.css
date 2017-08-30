@@ -237,8 +237,11 @@ footer nav ul li a {
     color: #37474F;
 }
 
-footer nav ul li:hover {
+footer nav ul li a:hover {
     background-color: #c1aea6;
+    border: 2px solid #c1aea6;
+    border-radius: 25px;
+    padding: 10px 25px;
 }
 
 footer .logo {
