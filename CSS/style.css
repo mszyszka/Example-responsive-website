@@ -37,7 +37,7 @@ article .article-header {
     padding-top: 90px;
     padding-bottom: 25px;
     text-align: center;
-    color: #fff;
+    color: #37474F;
 }
 
 .article-header h1 {
@@ -46,20 +46,22 @@ article .article-header {
 }
 
 .article-header-txt {
-    padding: 10px 25px 50px 25px;
+    padding: 70px 40px 135px 40px;
 }
 
 .author-div {
     color: #000000;
+    padding-bottom: 20px;
 }
 
 .author-div img {
-    max-width: 90px;
+    max-width: 80px;
     border-radius: 50%;
 }
 
 .author-name {
     margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 
@@ -69,8 +71,8 @@ article .article-header {
 /*................................logo style..........................*/
 
 .logo span {
-    color: #000000;
-    text-decoration: none;
+    color: #37474F;
+    text-decoration: underline;
     font-size: 2rem;
     font-style: italic;
     font-size: 300;
@@ -93,11 +95,9 @@ article .article-header {
     display: block;
 }
 
-
-
 .page-nav .navigation-menu {
     list-style-type: none;
-        display: none;
+    display: none;
     padding: 0;
     margin: 0;
     width: 100%;
@@ -118,17 +118,15 @@ article .article-header {
 }
 
 .page-header .navigation-menu li:last-child a {
-    border: 2px solid #e0d7d0;
+    border: 2px solid #604642;
     border-radius: 25px;
     padding: 10px 25px;
 }
 
 .navigation-menu li a {
     text-decoration: none;
-    color: #000000;
+    color: #37474F;
 }
-
-
 
 
 /*............................................................*/
@@ -184,7 +182,7 @@ section .section-author-img {
 .bar3 {
     width: 25px;
     height: 3px;
-    background-color: #000000;
+    background-color: #37474F;
     margin: 6px 0;
     transition: 0.4s;
 }
@@ -220,7 +218,7 @@ section .section-author-img {
 
 footer {
     text-align: center;
-    background-color: #c9bcb3;
+    background-color: #e8e6de;
     padding: 20px;
     border-top: 1px solid #9b817b;
 }
@@ -245,3 +243,63 @@ footer .logo {
 
 
 /*....................................................................*/
+
+
+/*...................................Style for device width over 640px...................... .................*/
+
+
+/*I'm setting breakpoint on 40em what is 640px*/
+
+@media (min-width: 40em) {
+    /*...........................nav style................................*/
+    .page-nav .hamburger-button {
+        display: none;
+    }
+    .page-nav .navigation-menu {
+        display: block;
+        max-width: 400px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding-top: 15px;
+        text-align: right;
+    }
+    .page-header .navigation-menu li {
+        padding: 12px;
+        display: inline-block;
+    }
+    .page-header .navigation-menu li:first-child {
+        padding-top: 15px;
+    }
+    .page-header .navigation-menu li:last-child {
+        border: none;
+        padding: 12px;
+    }
+    .page-header .navigation-menu li:last-child a {
+        border: 2px solid #604642;
+        border-radius: 25px;
+        padding: 10px 25px;
+    }
+    .navigation-menu li a {
+        text-decoration: none;
+        color: #37474F;
+    }
+    /*....................................................................*/
+    
+    
+    /*.............................header style...........................*/
+    article .article-header {
+        background: url(../IMG/header.jpeg) no-repeat;
+        background-size: ;
+        background-size: auto;
+        background-position: 50% 47%;
+        padding-top: 90px;
+        padding-bottom: 90px;
+        text-align: center;
+        color: #37474F;
+    }
+    /*....................................................................*/
+}
+
+
+/*.............................................................................................................*/
