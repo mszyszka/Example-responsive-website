@@ -165,6 +165,12 @@ section .section-author-img {
 }
 
 
+
+
+
+
+
+
 /*............................................................*/
 
 
@@ -300,7 +306,7 @@ footer .logo {
         background-size: auto;
         background-position: 50% 47%;
         padding-top: 90px;
-        padding-bottom: 90px;
+        padding-bottom: 88px;
         text-align: center;
         color: #37474F;
     }
